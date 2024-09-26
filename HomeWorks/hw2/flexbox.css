@@ -1,0 +1,17 @@
+.flex-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.flex-cell{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 499px){
+    .flex-container{
+        flex-direction: column;
+    }
+    
+}
