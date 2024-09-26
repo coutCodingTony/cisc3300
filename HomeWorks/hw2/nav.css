@@ -1,0 +1,25 @@
+.nav-bar{
+    align-items: center;
+    background-color: grey;
+    height: 95px;
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px 30px;
+}
+ul{
+    list-style: none;
+    display: flex;  
+  }
+.navbar-nav li{
+    margin-right: 50px;
+}
+.navbar-nav li:hover{
+    text-decoration: underline;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
