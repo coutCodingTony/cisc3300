@@ -1,0 +1,7 @@
+Anthony Pita
+Homework 2
+
+Question 3:
+    The main difference between flex and grid is that grid is two-dimensional while flex is one-dimensional, they
+    are both helpful in creating organizational structures in rows and columns, but grids allowed this to be done simultaneously.
+    
