@@ -1,0 +1,132 @@
+.homepage{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content-view {
+    display: table-row;
+}
+.side-bar{
+    display: table-cell;
+    flex-direction: column;
+    align-items: initial;
+    text-align: left;
+    width: 400px;
+    padding: 2rem 4rem 4rem 8rem;
+    border-right: 1px solid #E8E8E8;
+}
+.side-bar-list{
+    width: 230px;
+}
+.inner-list{
+    padding: .25rem 0;
+}
+.inner-list p{
+    color: #900028;
+    font-weight: 600px;
+}
+.inner-list ul{
+    background-color: #E8E8E8;
+    border-left: 1px solid #900028;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.menu-item{
+    font-weight: 500px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: .5rem;
+}
+.menu-item a{
+    color: black;
+}
+.under-side{
+    width: 230px;
+    height: 60px;
+}
+.maj-min-button a{
+    color: white;
+}
+.btn{
+    width: 100%;
+    background-color: #900028;
+    height: 60px;
+    font-size: large;
+}
+.right-content{
+    display: table-cell;
+    flex-direction: row;
+    padding: 0 8rem 0 4rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+.nav-bar .beadcrumb{
+    list-style: none;
+    padding: 0;
+}
+.breadcrumb-item{
+    display: inline;
+}
+.breadcrumb-item a{
+    color: black;
+}
+.breadcrumb-item .active{
+    color:#900028
+}
+.header h1{
+    display: block;
+    color:#900028;
+    font-weight: normal;
+}
+.text-block{
+    line-height: 1.5;
+}
+.visit-link{
+    color: #900028;
+    text-decoration: underline;
+}
+.bigger-text{
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 1rem;
+    letter-spacing: 0.5px;
+}
+.body-image{
+    padding-left: 3rem;
+    float: right;
+    margin-right: 2rem;
+    width: 230px;
+    margin-bottom: .5rem;
+
+}
+img{
+    max-width: 100%;
+    object-fit: contain;
+}
+p{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Raleway, sans-serif;
+}
+button{
+    border-radius: 0;
+    text-transform: none;
+    border: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    display: list-item;
+}
