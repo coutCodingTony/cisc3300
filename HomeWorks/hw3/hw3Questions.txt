@@ -1,0 +1,19 @@
+1) JavaScript is a a type of programming language. It is used commonly to add dynamic interactions 
+to web pages, apllications, and games. Iterpreted language differs from compile language because a different program, 
+the interpreter reads and executes the code, languages such as JS or Python. The compiler is the program that express in
+the taget machine, and it is undecipherable, such as c++ or Java.
+
+2) During dynamically type programming, the type checking occurs when the code is running, having a higher chance of run
+time errors, but allowing more flexible variable usage, while Statically type programming, the type checking occurs during
+compilation, allowing it to catch more errors and improving run time. A Strongly typed prevent accidental type mismatches by 
+requiring explicit conversions between types, while a weakly typed can lead to unexpected events since it is allowed to allow 
+implicit type conversions.
+
+3) A var declaration is a global function scope that is able to be redeclared, let is a declaration that is block scope that is
+able to be redeclared, and const is a block scope that is not allowed to be redeclared. 
+
+4) An anonymous function is a function that has no name. A higher-function is a function that can take in other functions or
+return other functions as arguments called a. Callback functions is passed as an argument to another function to be called
+later. First-class functions are if functions that are treated like other variables. 
+
+5) Objects are a collection of data, or property, and a property is an association between a aname and a value. 
