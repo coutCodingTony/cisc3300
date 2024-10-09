@@ -1,0 +1,7 @@
+1. The DOM ia an API representing the representation of the html page that specifies how browsers should create a model
+ of an html page and how javaScript can access and update the contents of a webpage. The DOM tree is the model of the web page
+ and consists of 4 main nodes: document, element, attribute, and text nodes.
+2. 
+3.
+4.
+5.
