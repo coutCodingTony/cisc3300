@@ -1,7 +1,13 @@
 1. The DOM ia an API representing the representation of the html page that specifies how browsers should create a model
  of an html page and how javaScript can access and update the contents of a webpage. The DOM tree is the model of the web page
  and consists of 4 main nodes: document, element, attribute, and text nodes.
-2. 
-3.
-4.
-5.
+2. A XSS is a Cross-Site Scripting Attacks that occurs when a malicious usesr adds code to an input that is generated as HTML, 
+ whuch later can be run to other users. In order to avoid them and guard against XSS, we must be careful what content we code as Html,
+  we should not give the user the option to show input that came from user at all, and if it must then we must validate the input, 
+  and remove tags, escape characters and other things that the malicious user could use to create XSS. 
+3. An event in JavaScript is when JavaScript reacts to an HTML Event, that are things that happen to HTML elements.
+4. A DOM listener is a way to handle events by listening for the event by name, that has a function attached to it that will be called 
+whenever the specified event is delivered to the target. The first parameter is the tye of even tit is listening for, such as click,
+the second parameter is the function e want to call when the event occurs, and the third optional parameter is a boolean value.
+5. Jquery is a lightweight javaScript library, whos purpose is to make it much easier to use JavaScript, by making it simplier 
+HTML, DOM, event handling, CSS, and Ajax. In order to load jQuery onto a page by using a CDN link.
