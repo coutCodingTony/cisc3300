@@ -1,0 +1,8 @@
+1. .htaccess
+2. php tag
+3. $
+4.non primitive values
+5. arrays
+6. eval()
+7. include/require
+8. data type
