@@ -3,6 +3,6 @@
 3. $
 4.non primitive values
 5. arrays
-6. eval()
+6. double quotes
 7. include/require
 8. data type
