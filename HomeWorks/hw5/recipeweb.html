@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
         <script>
             $(document).ready(function(){
                 $.ajax({
-                    url: "http://localhost:3000/recipes",
+                    url: 'http://localhost:3000/recipes',
                     type: "GET",
                     dataType: "json",
                     success: function (data) {
-                        console.log(data)
+                        console.log(data);
+                        for(var i = 0; i < lenght; i++){
+                            
+                        }
+
                     },
                     error: function(xhr, status, error){
                         console.error('Error, could not fetch', error);
@@ -18,4 +22,10 @@
             });
         </script>
     </head>
+    <body>
+        <p>Recipe:</p>
+        <div class="recipe">
+            <div class="description"></div>
+        </div>
+    </body>
 </html>

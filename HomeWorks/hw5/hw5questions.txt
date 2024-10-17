@@ -1,0 +1,17 @@
+1. HTTP stands for Hyper Text Transfer Protocol. The HTTP request methods are GET, retrieves data; POST, submits 
+an entitiy to a specified resource; PUT, update everything for a resource; PATCH, partially modify a resource;
+Delete, delete resource. 
+2. An API, application programming inerface, is a method of communication between two or more computer programs.
+ A JSON, JavaScript object notation, is an file that uses readable text as an open standard file and data 
+ interchage to store and trasnmit data objects consisting of attributes, value pair and arrays. 
+3. AJAX, Asynchronous JavaScript And XML, makes it possible to exchange data with a web server behing the scenes
+by updating it asynchronously, asynchronously code is meant by basically allows code block to execute in the
+future, without blocking the the execution if the other code.
+4. REST is an architecural style of organizing our code so that requests act upon resources ina standardize manner.
+Resources are information or the primary data representation in REST.
+4a. HTTP: GET/api/posts URI: http://api.example.com/posts
+4b. HTTP: GET/api/posts/id URI: http://api.example.com/posts/id
+4c. HTTP: POST/api/posts/id URI: POST http://api.example.com/posts/id
+4d. HTTP: PUT/api/posts URI: PUT http://api.example.com/posts/id
+5.  Hoisting is when the declaratons of all the variables and functions are taken to the top of the scope. 
+Closures is the ablilty of a function to rememeber the variables and functions defines in the outerscope. 

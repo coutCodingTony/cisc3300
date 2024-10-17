@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.ajax({
+                    url: 'https://api.open-meteo.com/v1/forecast?latitude=40.7143&longitude=-74.006&hourly=temperature_2m&temperature_unit=fahrenheit&timezone=America%2FNew_York',
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        console.log(data);
+                        $('.weather-lat').html(data.latitude);
+                        $('.weather-long').html(data.longitude);
+                        $('.temp-f').html(data.hourly.temperature_2m[0]);
+                        $('.time').html(data.hourly.time[0]);
+                    }
+                })
+            });
+        </script>
+    </head>
+    <body id="weather">
+        <h1>Latitude:</h1>
+        <div class="weather-lat">
+        </div>
+        <h1>Longitude</h1>
+        <div class="weather-long">
+        </div>
+        <h1>Temperature Fareheit:</h1>
+        <div class="temp-f">
+        </div>
+        <h1>Time (YYYY, MM, DD, HH:MM)</h1>
+        <div class="time">
+        </div>
+    </body>
+</html>

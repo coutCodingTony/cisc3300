@@ -1,0 +1,19 @@
+{
+    "recipes" : [
+        {
+            "id": 1,
+            "title": "Banana Pancakes",
+            "description": "These 3-ingredient banana pancakes are healthy and so easy to make. This recipe is family friendly as well—babies, kids and adults alike love these pancakes. Yields 8 pancakes (each about 4 inches in diameter, enough for 2 to 4 servings)."
+        },
+        {
+            "id": 2,
+            "title": "Pb & J",
+            "description": "Ingredient: Sliced Bread, Peanut butter of choice, and jelly of choice. Grab two pieces of sliced bread and placed them ontop a plate, on one bread, with a spoon or butter knife, spread peanut butter ontop of the bread equally, on the second bread, spread jelly ontop of the bread equally. Combine the bread together, making sure the peanut butter side faces the jelly side. Enjoy!"
+        },
+        {
+            "id": 3,
+            "title": "Cereal",
+            "description": "Ingredients: Milk, Your Choice of Cereal, Bowl, and spoon. Place the Bowl on the table, insert a good amount of cereal into the bowl, then insert milk into cereal floats on top, place spoon inside, and enjoy. "
+        }
+    ]
+}
