@@ -1,0 +1,19 @@
+1. PHP stands for Hypertext Preprocessor, which is a coding language used to build webpages as a sideserver. 
+It allows us to send data to the main server, and change the web server, without having to change he main webpage, such 
+as updating data and so forth.
+2. Similarities: Don't require a type declaration
+    - Conditionals
+    - Loops, Functions, Operators
+   Differences: JS is singlethreaded with an event loop, while
+   PHP is multithreaded.
+    - PHP don't have a set data structure
+    - PHP is mixed typing while JS is Dynamically typed
+3. PHP is picked over others because it has superior speed and 
+is cross-platformed, it is open-source and free to use.
+4. If a file is not found, include will show an error but keep going,
+while require will stop the run. 4a. If i try to use a variable 
+from a file that has not been included yet, then include will display an error but keep
+reading the code, while require will dsplay the error and stop the run.
+5. Both echo and var_dump are commands to display, but echo only desplays
+the value of a variable as a string, while var_dump displays the variable's
+type and value, and elements of arrays and objects.
