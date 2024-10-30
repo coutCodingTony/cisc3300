@@ -1,0 +1,10 @@
+1. URL
+2. $_GET
+3. $_POST
+4. not appear
+5. HTML Language
+6. validity
+7. cookie
+8. Sessions
+9.  Exceptions: When an exceptional situation is not 
+allowing a code to run

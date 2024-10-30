@@ -1,0 +1,23 @@
+1. A class is a template for creating objects and it is required unlike JS.
+An object is an instance of a class. An OOP, Object-Oriented Programming
+uses objects to design computer programs.
+2. Abstract classes allow the parent to create defaults for methods
+by only extending by children classes.
+3. Superglobal are variables that are available in all scopes 
+throughout a script. One example of the data they provide is
+the $_SERVER superblobal, which creates a PHP interperter superglobal array
+each time a page is requested.
+4. The two steps to setting up and using a class via namespace
+are 1. Defining a namespace in the class to be used, 2. $postModel = new/place/holder/Post().
+5. MVC is a design pattern that separates an application into three
+main logical components, Model, View, and Controller.
+Model: corresponds to all the data related logic that the user interacts with.
+It can add and retrieve data from the database, and responds to the
+Controller's request.
+View: used for all UI logic, providing the user with an interface.
+Created from the data from the model, given to it by the controller. 
+Can only interact with the controller.
+Controller: Enables the interconnection between model and view.
+Does not handle data logic, just gives the model instruction of
+what to do. Manipulates the data using the model and renders the data through 
+view.
