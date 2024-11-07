@@ -1,0 +1,29 @@
+1. www.example.com?value1=data1&value2=data2
+2. Escaping a character means including a special symbol
+to a character to prevent from the code being compiled incorrectly and executed incorrectly.
+3. 
+    200: Ok - Succesfull Request
+    400: Bad Request - Invalid Syntax, server can not process
+    401: Unathorized - User filed to provide authentication
+    403: Forbidden - user has no right to the server and contents
+    404: Not Found -server not found
+    500: Internal Server Error - Server encountered uncexptected Error
+4. We need to validate data because we need to make sure the data
+is the right type, and check wether the data is within the
+acceptable values defined for the field. This further prevents any security breahces
+due to empty or incorrectly labeled data types.
+5. Sessions is a textfile that stores user information
+only for the duration of the visit of the page. Cookie is 
+a textfile that stores user data, not personal information,
+and sends data to the requesting domain that set it, and can only
+be tied to one browser. 
+6.
+try{
+    $value = 1
+    if ($value == 1) {
+        throw new Expectation("Machine is on");
+    }
+}
+catch (Exception $e){
+    echo "Exception: machine is battery saver." . $e->getMessage();
+}
