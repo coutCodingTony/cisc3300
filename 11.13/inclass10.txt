@@ -1,0 +1,10 @@
+1. PDOs
+2. DSN
+3. .env
+4. ignore
+5. statement
+6. fetch
+7. fetchAll
+8. prepared statement
+9. colons
+10. SQL Injection Hack
