@@ -1,0 +1,27 @@
+1. SQL, Structured Query Language, is a standard Language
+for database creation and manipulation, while mySQL is a 
+relational database program that usese SQL. A relational database
+program allows us to identify and access data in relation to
+another piece of data.
+2. Normalization in SQL is organizing the columns and tables
+of a database to ensure that the database integrity contraints
+properly execute their dependencies.
+3. A primary key is the field used to uniquely identify each
+record in a table, it can not be null, must be unique, and 
+there can only be one defined per table. A foreign key is a
+field in one table that references the primary key in another table. 
+The data from the fields are exactly the same, and the table with 
+the primary key must exist first before the table of the foreign
+key.
+4. The three relationship types are one-to-one, in which for
+every record in the primary table, there is only one and only one 
+recordin the foreign table. One-to-many, in which for every record
+in the primary table, there are one or more related records
+in the foreign table. Many-to-Many, in which for every record
+in the primary table, there are many related record in the foreign 
+table, and for every foreign record in the foreign table, there is
+many related records in the primary table.
+5. The difference between LEFT join and INNER join is that a 
+LEFT join returns all records from the left table, and matching records from
+the right table, wile an INNER only returns records that match in both
+tables.
